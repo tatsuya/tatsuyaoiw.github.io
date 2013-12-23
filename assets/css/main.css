@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url( '../img/content-bg.png' );
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333;
+  overflow-x:hidden;
+}
+
+a,
+a:visited,
+a:active {
+  color: #ce181e;
+  text-decoration: none;
+}
+
+p, pre {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: 'Ubuntu Mono', serif;
+  font-weight: normal;
+  margin: 10px 0 20px 0;
+}
+
+h1 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.site {
+/*  font-size: 115%;*/
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em;
+  /*line-height: 1.5em;*/
+}
