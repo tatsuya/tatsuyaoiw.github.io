@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
-    <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">tatsuyaoiw.github.io</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-        </div>
-
-    </body>
+{% include head.html %}
+<body>
+  <div id="content">
+    <h1 id="title"><a href="/">tatsuyaoiw.github.io</a></h1>
+    <article>
+      {{ content }}
+    </article>
+  </div>
+  {% include foot.html %}
+</body>
 </html>

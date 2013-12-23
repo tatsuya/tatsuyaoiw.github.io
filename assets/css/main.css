@@ -22,14 +22,14 @@ p, pre {
   margin: 0;
 }
 
-h1,
-h2 {
+h1, h2 {
   font-family: 'Ubuntu Mono', serif;
   font-weight: normal;
   margin: 10px 0 20px 0;
 }
 
 h1 {
+  text-align: center;
   font-size: 24px;
   letter-spacing: 2px;
   line-height: 24px;
@@ -40,10 +40,40 @@ h2 {
   line-height: 18px;
 }
 
-.site {
-/*  font-size: 115%;*/
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  /*line-height: 1.5em;*/
+pre {
+  font-size: 13px;
+  padding: 2px; border: 1px solid #ccc;
+  background-color: #000;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 8px 14px 8px 14px;
+  margin: 0 0 20px 0;
+}
+
+#content {
+  padding: 10px 25px 0 25px;
+}
+
+#title {
+  margin-bottom: 50px;
+}
+
+#posts {
+  line-height: 20px;  
+}
+
+article {
+  max-width: 700px;
+  margin: auto;
+}
+
+article p {
+  padding: 0 0 20px 0;
+  text-align: left;
+  font-size: 14px;
+  line-height:1.5;
+}
+
+#foot {
+  padding: 25px 0 0 0;
 }
