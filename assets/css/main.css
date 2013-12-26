@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -18,20 +19,29 @@ a:active {
   text-decoration: none;
 }
 
+a:hover {
+  color: #ce181e;
+}
+
 p, pre {
   margin: 0;
 }
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: 0;
+  margin: 0 0 20px 0;
+}
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Ubuntu Mono', serif;
   font-weight: normal;
   margin: 10px 0 20px 0;
 }
 
 h1 {
-  text-align: center;
   font-size: 24px;
-  letter-spacing: 2px;
   line-height: 24px;
 }
 
@@ -40,32 +50,55 @@ h2 {
   line-height: 18px;
 }
 
-pre {
-  font-size: 13px;
-  padding: 2px; border: 1px solid #ccc;
-  /*background-color: #000;*/
-  background-color: #444;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  padding: 8px 14px 8px 14px;
-  margin: 0 0 20px 0;
+nav {
+  background-image: url( '../img/nav-bg.png' );
+  text-align: center;
+  padding: 0 0 14px 0;
+  font-family: 'Lekton', sans-serif;
+}
+
+nav header {
+  padding: 20px 0 5px 0;
+}
+
+nav header h1 {
+  padding: 0 25px 0 25px;
+  text-align: left;
+}
+
+nav ul {
+  padding: 0 25px 0 25px;
+  text-align: left;
+}
+
+nav ul li {
+  white-space: nowrap;
+  line-height: 21px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+nav ul li a {
+  display: block;
+}
+
+.nav-divider {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px
 }
 
 #content {
   padding: 10px 25px 0 25px;
 }
 
-#title {
-  margin-bottom: 50px;
-}
-
-#posts {
-  line-height: 20px;  
-}
-
 article {
   max-width: 700px;
   margin: auto;
+}
+
+#blog {
+  padding: 40px 0 0 0;
 }
 
 article p {
@@ -75,6 +108,36 @@ article p {
   line-height:1.5;
 }
 
-#foot {
-  padding: 25px 0 0 0;
+pre {
+  font-size: 13px;
+  padding: 2px; border: 1px solid #ccc;
+  background-color: #444;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 8px 14px 8px 14px;
+  margin: 0 0 20px 0;
+}
+
+@media (min-width: 480px) and (max-width:760px) {
+
+  nav header {
+    padding: 20px 0 20px 0;
+  }
+
+}
+
+@media (min-width: 761px) {
+
+  nav {
+    width: 250px;
+    height: 100%;
+    float: left;
+    padding: 0;
+  }
+
+  #content {
+    padding: 30px 25px 0 25px;
+    margin: 0 0 0 250px;
+  }
+
 }
