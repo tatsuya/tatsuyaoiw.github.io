@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "elasticsearchで全文検索"
+title:  "Elasticsearchで全文検索"
 date:   2013-09-22 07:19:00
 ---
 
