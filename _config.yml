@@ -1,2 +1,16 @@
-name: tatsuyaoiw.github.io
+# Site settings
+title: Tatsuya Oiwa
+email: tatsuyaoiw@gmail.com
+description: ""
+baseurl: ""
+twitter_username: tatsuyaoiw
+github_username:  tatsuyaoiw
+
+# Build settings
 markdown: kramdown
+permalink: pretty
+kramdown:
+  input: GFM
+
+  coderay:
+    coderay_bold_every: false
