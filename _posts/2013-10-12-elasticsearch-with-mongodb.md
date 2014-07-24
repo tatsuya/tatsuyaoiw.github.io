@@ -8,7 +8,7 @@ ElasticsearchとMongoDBの組み合わせを試してみた。
 
 ## MongoDBのインストール
 
-Homebrewで。
+Homebrewからインストール。
 
     brew install mongodb
 
@@ -18,21 +18,21 @@ Homebrewで。
 
     mongod
 
-MongoDBの設定ファイルは `/usr/local/etc/mongod.conf` らしいので、デフォルトの設定を変えたいときはこれを編集するか、もしくはコマンドラインのオプションでの上書きも可能。
+MongoDBの設定ファイルは `/usr/local/etc/mongod.conf` なので、デフォルトの設定を変えたいときはこれを編集するか、もしくはコマンドラインのオプションで上書きすることも可能。
 
 ## Elasticsearchのインストール
 
-ソースダウンロード or Homebrewどちらでも可。
+ソースダウンロード or Homebrewでインストール。
 
     brew install elasticsearch
 
 ## river-mongodbをインストール
 
-続いてElasticsearchのMongoDB用プラグイン `elasticsearch-river-mongodb` をインストール。インストールはElasticsearchのホームディレクトリから `plugin` コマンドを実行するのが簡単。
+続いてElasticsearchのMongoDB用riverプラグインである `elasticsearch-river-mongodb` をインストールする。インストールはElasticsearchのホームディレクトリから `plugin` コマンドを実行する。
 
     bin/plugin -i com.github.richardwilly98.elasticsearch/elasticsearch-river-mongodb/1.7.0
 
-Elasticsearchを起動すると、インストールしたriverプラグインが読み込まれるようになる。（ログは見やすいように一部整形してます）
+Elasticsearchを起動すると、インストールしたriverプラグインが読み込まれるようになる。（ログは見やすいように一部整形済み）
 
     $ ./bin/elasticsearch -f
     [INFO ][node   ] [Celestial Madonna] version[0.90.5], pid[7774]
@@ -60,18 +60,18 @@ Elasticsearchを起動すると、インストールしたriverプラグイン�
       }
     }
 
-`type` プロパティの値にはriverの名前である`mongodb`を。`mongodb` プロパティの値はオブジェクトで、MongoDBのホスト名やポート番号、データの取得元となるデータベース名、コレクション名を指定。最後に `index` プロパティの値に、取得したデータの保存先となるインデックス名を指定した。
+`type` プロパティの値にはriverの名前である"mongodb"を。`mongodb` プロパティの値はオブジェクトで、MongoDBのホスト名やポート番号、データの取得元となるデータベース名、コレクション名を指定。最後に `index` プロパティの値に、取得したデータの保存先となるインデックス名を指定した。
 
 この設定を`config.json`という名前で適当な場所に保存しておく。
 
 ## MongoDBをReplicaSetとして起動する
 
-river-mongogbは、MongoDBのインスタンスがReplicaSetとして起動していないとデータを読み取れないらしい。ので、最初に実行したMongoDBインスタンスをいったんkillして、再度 `mongod`コマンドにオプションを加えて実行する。
+river-mongogbは、MongoDBのインスタンスがReplicaSetとして起動していないとデータを読み取れないとのことなので、最初に実行したMongoDBインスタンスをいったんkillして、再度 `mongod`コマンドにオプションを加えて実行する。
 
     mkdir -p ~/sandbox/mongodb/data/1
     mongod --replSet rs0 --port 27017 --dbpath ~/sandbox/mongodb/data/1 --rest
 
-`--replSet` オプションを追加すると、MongoDBはレプリカセットの実行モードで起動する。オプションの値には適当なレプリカセット名を入れている（ここでは `rs0` ）。また `--dbpath` にはデータの保存先のパスとして `~/sandbox/mongodb/data/1` を指定した（ここのパスは別途作っておくこと）。さらに `--rest` オプションを指定すると[http://localhost:28017/](http://localhost:28017/)から各種ステータスが見れるようになるので、付けておいたほうが楽。
+`--replSet` オプションを追加すると、MongoDBはレプリカセットの実行モードで起動する。オプションの値には適当なレプリカセット名を入れている（ここでは `rs0` ）。また `--dbpath` にはデータの保存先のパスとして `~/sandbox/mongodb/data/1` を指定した（ここのパスは別途作っておくこと）。さらに `--rest` オプションを指定すると[http://localhost:28017/](http://localhost:28017/)から各種ステータスが見れるようになるので、付けておいたほうが。
 
 次に `mongo` コンソールからレプリカセットの設定と初期化を行う。
 

@@ -68,7 +68,7 @@ elasticsearchをダウンロードしてインストール。
 
 ## インデックスの検索
 
-インデックスが作成されていることを確認できたら、いよいよ検索してみる。tweetというキーワードを含むツイートを検索。
+次に検索クエリを実行してみる。tweetというキーワードを含むツイートを検索。
 
     curl -XGET localhost:9200/twitter/tweet/_search?q=message:tweet
 
@@ -80,7 +80,7 @@ elasticsearchをダウンロードしてインストール。
 
     curl -XGET localhost:9200/twitter/tweet/_search?q=user:tatsuyaoiw
 
-また、elasticsearchはJSON形式でのクエリもサポートしていて、例えばSolrのRangeQueryのような複雑なパラメータは以下のとおり。
+また、elasticsearchはJSON形式でのクエリもサポートしていて、例えばSolrのRangeQueryのような複雑なパラメータもこのように実行することができる。
 
     curl -XGET localhost:9200/twitter/tweet/_search -d '
     { query: { range : { postDate : { from : "20130901", to : "20131001"}}}}}'

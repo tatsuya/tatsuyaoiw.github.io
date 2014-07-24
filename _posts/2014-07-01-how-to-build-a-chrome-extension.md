@@ -6,7 +6,7 @@ date:  2014-07-01 06:50
 
 ## はじめに
 
-Chrome Extensionの[Sample Extensions](https://developer.chrome.com/extensions/samples)のページで紹介されている[Page Redder](https://developer.chrome.com/extensions/samples#page-redder)（ページの背景を赤くする）を参考にしながら作ってみた。
+Chrome Extensionの[Sample Extensions](https://developer.chrome.com/extensions/samples)で紹介されている[Page Redder](https://developer.chrome.com/extensions/samples#page-redder)（ページの背景を赤くする拡張機能）を作る。
 
 
 ## manifest.jsonの作成
@@ -35,19 +35,23 @@ Chrome Extensionの[Sample Extensions](https://developer.chrome.com/extensions/s
 }
 ```
 
-`manifest_version`, `name`, `version`の3つのプロパティは必須となる。
+必須のパラメータは以下の3つ。
 
-- `manifest_version` - `manifest.json`のフォーマットのバージョン
-- `name` - Extensionの名前
-- `version` - Extensionのバージョン
+- `manifest_version` : `manifest.json`のフォーマットのバージョン。
+- `name`: Extensionの名前
+- `version`: Extensionのバージョン
 
-その他に、ツールバー上に表示するアイコンなどのUIを設定するためのプロパティである`browser_action`、アイコンがクリックされたときの動作を定義するスクリプトのファイルを指定した`background`、さらにChromeの様々なAPIを利用する際に指定する`permissions`プロパティ（詳細は[Declare Permissions](https://developer.chrome.com/extensions/declare_permissions)を参照）を設定した。
+その他必要なパラメータは、作りたいExtensionの種類によって変わるので、詳細は[Manifest File Format](https://developer.chrome.com/extensions/manifest)を参照してほしい。
 
-`manifest.json`で定義可能なその他のプロパティについては[Manifest File Format](https://developer.chrome.com/extensions/manifest)を参照。
+今回はBrowser Actionと呼ばれるタイプのExtensionを作成するので、以下の3つのパラメータを追加した。
+
+- `browser_action`: ツールバー上に表示するアイコンなどのUIの設定
+- `background`: アイコンがクリックされたときの動作を定義
+- `permissions`: Chromeの様々なAPIを利用するための権限の設定（詳細は[Declare Permissions](https://developer.chrome.com/extensions/declare_permissions)を参照）
 
 ## コーディング
 
-設定ファイルの準備が整ったので、続いて`manifest.json`の`background.scripts`で指定した`background.js`を作成しコードを書いていく。
+設定ファイルの準備が整ったので、続いて`manifest.json`の`background.scripts`で指定した`background.js`というファイルを`manifest.json`と同じディレクトリに作成し、コードを書いていく。
 
 ```js
 // Extensionのアイコンがクリックされたときに呼ばれる
@@ -57,21 +61,23 @@ chrome.browserAction.onClicked.addListener(function() {
 });
 ```
 
+コメントに記載の通り、ブラウザの右上に表示したアイコンをクリックすると、コンソールに`hello world`と表示されるプログラムを用意した。
+
 ## Extensionの読み込みと実行
 
-Extensionは最終的に`.crx`という形式にパッケージングした状態でChromeのウェブストアにリリースされるが、開発時に毎回その形式に変換するのは面倒なので、そのままの状態でChromeに読み込んでテストを行う。
+Extensionは最終的に`.crx`という形式にパッケージングした状態でChromeのウェブストアにリリースされる。しかし、開発時に毎回その形式に変換するのは面倒なので、ローカルのChromeにパッケージングしていない状態のプログラムを読み込んでテストを行う。
 
-- Chromeを起動し、URLバーからchrome://extensionsを開く（または右上の設定メニューを開くボタンクリックし、Extensions > Toolsに移動する）。
+- Chromeを起動し、URLバーから`chrome://extensions`を開く（または右上の設定メニューを開くボタンクリックし、Extensions > Toolsに移動する）。
 - 右上のDeveloper modeのチェックボックスがオンになっていることを確認する。
-- Load unpacked extension...をクリックし、manifest.jsonのあるディレクトリを選択して読み込む。
+- Load unpacked extension...をクリックし、`manifest.json`のあるディレクトリを選択して読み込む。
 
-ここまでの手順を行っていくと、ブラウザの右上に新しいアイコンが現れる。そのアイコンにマウスオーバーすると、先ほど`manifest.json`の`browser_action.default_title`で定義した"Make this page red"という文字列が表示される。
+すると、ブラウザの右上に新しいアイコンが現れる。そのアイコンにマウスオーバーし、先ほど`manifest.json`の`browser_action.default_title`で定義した"Make this page red"という文字列が表示されれば、Extensionは正しく読み込まれている。
 
-さらにchrome://extensionsのページに戻りInspect views: background_pageというリンクをクリックすると、backgroundで実行中のスクリプト用のデバッグコンソールがポップアップで表示される。そのコンソール上にhello worldが表示されていれば、Extensionは期待通りに動作している。
+さらに`chrome://extensions`のページに戻りInspect views: background_pageというリンクをクリックすると、バックグラウンドで実行中のスクリプト用のデバッグコンソール別ウィンドウで表示される。そのコンソール上に"hello world"という文字列が表示されていれば、先ほどのコードも期待通りに動作していることがわかる。
 
 ## コーディングの続き
 
-ここまでログを出力するのみだった部分を、実際のコードに置き換えていく（Chrome Extensionで利用可能なAPIについては[Developer's Guide](https://developer.chrome.com/extensions/devguide)を参照）。
+コンソールに文字列を出力していた部分を、実際にページを赤くするコード置き換えていく（Chrome Extensionで利用可能なAPIについては[Developer's Guide](https://developer.chrome.com/extensions/devguide)を参照）。
 
 ```js
 // Extensionのアイコンがクリックされたときに呼ばれる
@@ -83,9 +89,11 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 });
 ```
 
-もう一度chrome://extensionsに戻ってReloadし、適当なページを開いた状態でExtensionのアイコンをクリックすると、ページの背景が赤くなる。
+もう一度`chrome://extensions`に戻ってReloadボタンをクリックし、適当なページを開いた状態でExtensionのアイコンをクリックすると、ページの背景が赤くなれば成功となる。
 
 ## リンク
+
+参考にしたページの一覧はこちら。
 
 - [Getting Started: Building a Chrome Extension](https://developer.chrome.com/extensions/getstarted) - 最も基本的なbrowser actionのチュートリアル
 - [Overview](https://developer.chrome.com/extensions/overview) - browser action, page action, background, content scriptsなどのアーキテクチャの概要とChromeが提供するAPIについて
