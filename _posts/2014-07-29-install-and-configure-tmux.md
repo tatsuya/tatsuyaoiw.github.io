@@ -83,8 +83,22 @@ Ctrl-b ?
 `.tmux.conf`の例。
 
 ```
-# remap prefix to Ctrl-t
+# remap prefix from default Ctrl-b to Ctrl-t
 set -g prefix C-t
 unbind C-b
 bind C-t send-prefix
+```
+
+あと、tmuxの画面内でスクロールしたい場合は、コピーモードに切り替える必要がある。コピーモードでは矢印キーやマウスによるスクロールの他に、テキストのコピー/ペーストやその他様々な操作を行うことができる。
+
+コピーモードの開始。
+
+```
+Ctrl-b [
+```
+
+コピーモードの終了。
+
+```
+q
 ```
