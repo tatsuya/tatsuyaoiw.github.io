@@ -6,7 +6,7 @@ date:  2014-07-29 21:18
 
 [tmux](http://tmux.sourceforge.net/)使い始めたので一応書いとく。
 
-MacOSの場合、[Homebrewでインストール。
+MacOSの場合、[Homebrew](http://brew.sh/)でインストール。
 
 ```
 $ brew install tmux
