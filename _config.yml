@@ -1,10 +1,32 @@
 # Site settings
-title: Tatsuya Oiwa
-email: tatsuyaoiw@gmail.com
-description: ""
-baseurl: ""
+title:       Tatsuya Oiwa
+email:       tatsuyaoiw@gmail.com
+author:      Tatsuya Oiwa
+description: "Tatsuya Oiwa's blog"
+baseurl:     ""
+url:         "http://tatsuyaoiw.com"
+
+# Google analytics
+google_analytics:
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+
+# Social icons
+show_social_icons: true
+github_username: tatsuyaoiw
 twitter_username: tatsuyaoiw
-github_username:  tatsuyaoiw
+google_plus_id:
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
 
 # Build settings
-markdown: redcarpet
+markdown:     redcarpet
+permalink:    pretty
+paginate:     10
+sass:
+  compressed: true
