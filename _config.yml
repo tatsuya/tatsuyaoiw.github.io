@@ -1,18 +1,18 @@
 # Site settings
-title:       Tatsuya Oiwa
-email:       ""
-author:      Tatsuya Oiwa
+title: Tatsuya Oiwa
+email:
+author: Tatsuya Oiwa
 description: "Tatsuya Oiwa's blog"
-baseurl:     ""
-url:         "http://tatsuyaoiw.com"
+baseurl:
+url: "http://tatsuyaoiw.com"
 
 # Google analytics
 google_analytics: UA-11963754-5
 
 # Optional features
-animated:           false
+animated: false
 show_related_posts: false
-show_post_footers:  false
+show_post_footers: false
 
 # Social icons
 show_social_icons: true
@@ -25,8 +25,8 @@ paypal_url:
 flattr_button:
 
 # Build settings
-markdown:     redcarpet
-permalink:    pretty
-paginate:     10
+markdown: redcarpet
+permalink: pretty
+paginate: 10
 sass:
   compressed: true
