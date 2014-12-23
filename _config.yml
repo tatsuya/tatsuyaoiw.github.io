@@ -7,7 +7,7 @@ baseurl:     ""
 url:         "http://tatsuyaoiw.com"
 
 # Google analytics
-google_analytics:
+google_analytics: UA-11963754-5
 
 # Optional features
 animated:           false
