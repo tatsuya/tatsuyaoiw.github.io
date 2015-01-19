@@ -1,11 +1,11 @@
 ---
 layout: post
 title: ECMAScriptとは
-summary: ECMAScript5とかECMA-262とかJavaScriptとかをハッキリさせておきたい人のためのメモ
+summary: ECMAScript5とかECMA-262とかJavaScriptとか
 date: 2014-12-23 22:33
 ---
 
-ECMAScript5とかECMA-262とかJavaScriptとかをハッキリさせておきたい人のためのメモ。以下、[Wikipedia][ECMAScript]より。
+ECMAScript5とかECMA-262とかJavaScriptとかをハッキリさせたい。以下、[Wikipedia][ECMAScript]より。
 
 ## 概要
 
