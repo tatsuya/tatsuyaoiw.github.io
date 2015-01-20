@@ -13,7 +13,7 @@ date:  2014-07-01 06:50
 1. `manifest.json`の作成
 2. バックグラウンドスクリプトの作成
 3. Extensionの読み込みと実行
-4. コーディングの続き
+4. CSSでページの背景を赤くする
 
 ### 1. manifest.jsonの作成
 
@@ -107,7 +107,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
 もう一度`chrome://extensions`に戻りReloadボタンをクリックする。適当なページを開いた状態でExtensionのアイコンをクリックすると、ページの背景が赤くなれば成功となる。
 
-なお、その他Chrome Extensionで利用可能なAPIについては[Developer's Guide]を参照してほしい。
+なお、その他Chrome Extensionで利用可能なAPIについては[Developer's Guide]へ。
 
 ## 参考URL
 
