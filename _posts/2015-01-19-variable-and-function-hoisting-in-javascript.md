@@ -92,4 +92,6 @@ function example() {
 }
 ```
 
-参考: https://github.com/airbnb/javascript#hoisting
+参考: [airbnb/javascript]
+
+[airbnb/javascript]: https://github.com/airbnb/javascript#hoisting
