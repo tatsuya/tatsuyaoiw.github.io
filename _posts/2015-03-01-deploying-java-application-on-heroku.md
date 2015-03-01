@@ -7,7 +7,7 @@ date: 2015-03-01 23:54
 
 ## 背景
 
-Javaで[Restletを使ったREST APIのサンプル][tatsuyaoiw/restlet-app]を書いていたら、どこかにデプロイしたくなったので[PaaSを色々検討した][Platform as a Service Provider Comparison]。その結果、過去にNodeのアプリのデプロイしたこともあるHerokuをJavaでも試しに使ってみることにした。
+Javaで[Restletを使ったREST APIのサンプル][tatsuyaoiw/restlet-app]を書いていたら、どこかにデプロイしたくなったので[PaaSを色々検討した][Platform as a Service Provider Comparison]。その結果、過去にNodeのアプリのデプロイしたこともあるHerokuをJavaでも使ってみることにした。
 
 ## 概要
 
@@ -25,7 +25,7 @@ Javaで[Restletを使ったREST APIのサンプル][tatsuyaoiw/restlet-app]を�
 
 ### Heroku Toolbeltのインストール
 
-最初に[Heroku Toolbelt]をインストールする。Heroku Toolbeltをインストールすると`heroku`コマンドや`foreman`コマンド（後述）が使えるようになる。以降の手順はほぼすべて`heroku`コマンドを使って行うことになる。
+最初に[Heroku Toolbelt]をインストールする。インストールすると`heroku`コマンドや`foreman`コマンド（後述）が使えるようになる。以降の手順はほぼすべて`heroku`コマンドを使って行うことになる。
 
 ### Herokuへログイン
 
@@ -46,7 +46,7 @@ $ cd java-getting-started
 
 ### Procfileの作成
 
-[Procfile][Process Types and the Procfile]はHeroku上で実行されるアプリケーション用の設定ファイルで、アプリケーションの起動時に実行されるコマンドを記載する。
+続いて[Procfile][Process Types and the Procfile]を作成する。ProcfileはHeroku用の設定ファイルで、アプリケーションの起動時に実行するコマンドを記載する。
 
 ```
 $ web: java $JAVA_OPTS -cp target/classes:target/dependency/* Main
@@ -56,7 +56,7 @@ $ web: java $JAVA_OPTS -cp target/classes:target/dependency/* Main
 
 ### Herokuアプリケーションの作成
 
-続いてHeroku上にアプリケーションを作成する。
+Heroku上にアプリケーションを作成する。
 
 ```
 $ heroku create
@@ -65,19 +65,19 @@ http://warm-eyrie-9006.herokuapp.com/ | https://git.heroku.com/warm-eyrie-9006.g
 Git remote heroku added
 ```
 
-`heroku create`を実行すると、適当なアプリケーション名 + herokuapp.com のドメインが振り分けられる（後から変更可能）。また、新たに`heroku`というGitのリモートレポジトリがローカルのGitプロジェクトに登録される。
+`heroku create`を実行すると、適当なアプリケーション名 + *herokuapp.com* のドメインが振り分けられる（後から変更可能）。また、新たに`heroku`というGitのリモートレポジトリがローカルのGitプロジェクトに登録される。
 
 ### Herokuへデプロイ
 
-アプリケーションのコードをデプロイする。
+アプリケーションのコードをHerokuにデプロイする。
 
 ```
 $ git push heroku master
 ```
 
-`heroku`のリモートレポジトリにコードをPushすると、自動的にMavenのビルドが開始され、ビルドが正常に完了するとGitのコミットがリモートに反映される。
+`heroku`のリモートレポジトリにコードをPushすると、自動的にMavenのビルドが開始され、ビルドが正常に完了すると変更がリモートに反映される。
 
-アプリケーションはURL（http://warm-eyrie-9006.herokuapp.com/ など）または以下のコマンドを使って参照
+アプリケーションはURL（*http://warm-eyrie-9006.herokuapp.com/* など）または以下のコマンドを使って参照
 できる。
 
 ```
@@ -100,7 +100,7 @@ Heroku Toolbeltをインストールすると、`foreman`というコマンド�
 $ foreman start web
 ```
 
-上記のコマンドを実行すると、`http://localhost:5000`でアプリケーションが起動する。
+上記のコマンドを実行すると、*http://localhost:5000*でアプリケーションが起動する。
 
 ## その他
 
