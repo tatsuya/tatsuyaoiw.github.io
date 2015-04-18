@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JavaアプリケーションをHerokuにデプロイする
-summary: JavaでREST APIを作ったのでどこかにデプロイしてみたくなった。
+summary: どこでもいいからとにかくインターネットで見れるようにしたい
 date: 2015-03-01 23:54
 ---
 
@@ -65,7 +65,7 @@ http://warm-eyrie-9006.herokuapp.com/ | https://git.heroku.com/warm-eyrie-9006.g
 Git remote heroku added
 ```
 
-`heroku create`を実行すると、適当なアプリケーション名 + *herokuapp.com* のドメインが振り分けられる（後から変更可能）。また、新たに`heroku`というGitのリモートレポジトリがローカルのGitプロジェクトに登録される。
+`heroku create`を実行すると、適当なアプリケーション名 + *herokuapp.com* のドメインが振り分けられる（後から変更可能）。また、新たに`heroku`というGitのリモートレポジトリがGitプロジェクトに登録される。
 
 ### Herokuへデプロイ
 
@@ -94,7 +94,7 @@ $ heroku logs --tail
 
 ### foremanを使ったローカル実行
 
-Heroku Toolbeltをインストールすると、`foreman`というコマンドが実行できるようになる。Foremanは`Procfile`を読み、Herokuへのデプロイをローカルで再現することができる。
+Heroku Toolbeltをインストールすると、`foreman`というコマンドが実行できるようになる。Foremanを使うと、Herokuへデプロイした環境と同じ環境をローカルで再現できるようになる。Foremanは`Procfile`を読むので、コマンドの引数としてプロセスタイプ`web`を指定して実行する。
 
 ```
 $ foreman start web

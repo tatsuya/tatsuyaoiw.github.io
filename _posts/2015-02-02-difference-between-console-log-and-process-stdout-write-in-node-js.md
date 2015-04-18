@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Node.jsのconsole.logとprocess.stdout.writeの違い
-summary: Node.jsのprocess.stdout.writeとconsole.logの違いについて
+summary: 果たして違いはあるのか
 date: 2015-02-02 08:52
 ---
 
