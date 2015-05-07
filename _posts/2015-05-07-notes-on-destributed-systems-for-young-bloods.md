@@ -2,7 +2,7 @@
 layout: post
 title: 「Notes on Distributed Systems for Young Bloods」読んだ
 summary: 分散システムを勉強中
-date: 2015-03-01 23:54
+date: 2015-05-07 18:48
 ---
 
 [Notes on Distributed Systems for Young Bloods](http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/) 読んだのでざっくりまとめた。
