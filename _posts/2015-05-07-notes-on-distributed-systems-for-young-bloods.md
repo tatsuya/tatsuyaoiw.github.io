@@ -5,7 +5,7 @@ summary: 分散システムを勉強中
 date: 2015-05-07 18:48
 ---
 
-[Notes on Distributed Systems for Young Bloods](http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/) 読んだのでざっくりまとめた。
+[Jeff Hodges](http://www.somethingsimilar.com/about/)の[Notes on Distributed Systems for Young Bloods](http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/)というブログ記事を読んだのでそのメモ。
 
 ## Distributed systems are different because they fail often.
 
