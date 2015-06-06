@@ -17,7 +17,6 @@ relative_permalinks: true
 title:               Tatsuya Oiwa
 url:                 http://tatsuyaoiw.com
 paginate:            1
-baseurl:             ""
 
 # Assets
 #
