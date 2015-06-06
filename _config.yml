@@ -1,32 +1,33 @@
-# Site settings
-title: Tatsuya Oiwa
-email:
-author: Tatsuya Oiwa
-description: "Tatsuya Oiwa's blog"
-baseurl:
-url: "http://tatsuyaoiw.com"
+# Markdown
+markdown:            redcarpet
+redcarpet:
+  extensions:        ["tables"]
 
 # Google analytics
-google_analytics: UA-11963754-5
+google_analytics:    UA-11963754-5
 
-# Optional features
-animated: false
-show_related_posts: false
-show_post_footers: false
+#
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Social icons
-show_social_icons: true
-github_username: tatsuyaoiw
-twitter_username: tatsuyaoiw
-google_plus_id:
-linkedin_username:
-bitcoin_url:
-paypal_url:
-flattr_button:
+# Setup
+title:               Tatsuya Oiwa
+url:                 http://tatsuyaoiw.com
+paginate:            1
+baseurl:             ""
 
-# Build settings
-markdown: redcarpet
-permalink: pretty
-paginate: 10
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
 sass:
-  compressed: true
+  sass_dir:          _sass
+  style:             :compressed
+
+# About/contact
+author:
+  name:              Tatsuya Oiwa
+  url:               https://twitter.com/tatsuyaoiw
+  email:             tatsuyaoiw@gmail.com
