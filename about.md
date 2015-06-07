@@ -3,4 +3,63 @@ layout: page
 title: About
 ---
 
-ソフトウェアエンジニア。[楽天](http://global.rakuten.com/corp/)のサーチプラットフォームグループに所属。大規模分散システムの運用自動化や、検索精度改善のためのツール開発に携わる。[ElasticSearch Server日本語版](http://ascii.asciimw.jp/books/books/detail/978-4-04-866202-4.shtml)の第5章の翻訳を担当した。
+Hi, my name is Tatsuya Oiwa. I'm a software engineer living and working in Tokyo.
+
+I joined [Rakuten](http://global.rakuten.com/corp/) in 2010 after graduating from [Shizuoka University](https://www.shizuoka.ac.jp/english/subject/index.html). At Rakuten, I do works related to search, including deployment automation for large scale distributed search platform (1000+ servers), and application development for relevancy tuning.
+
+Besides work, I translated a book [ElasticSearch Server](https://www.packtpub.com/big-data-and-business-intelligence/elasticsearch-server) from English to Japanese, and it's [published as a Japanese edition](http://ascii.asciimw.jp/books/books/detail/978-4-04-866202-4.shtml).
+
+I like building things that are clean, easy to use, and easy to integrate with others.
+
+You can find me on [Twitter](https://twitter.com/tatsuyaoiw) and on [Github](https://github.com/tatsuyaoiw).
+
+## Personal Projects
+
+Here are some of codes, mostly written in Node.js.
+
+### Libraries
+
+- [node-rakuten](https://github.com/tatsuyaoiw/node-rakuten) - Node.js client library for Rakuten Web Service API.
+- [webstorage](https://github.com/tatsuyaoiw/webstorage) - A simple, pluggable, W3C Web Storage compliant API for key-value data.
+
+### Web Apps
+
+- [simple-search-engine](https://github.com/tatsuyaoiw/simple-search-engine) - Minimalist search engine, tf-idf text retrieval with an inverted index, written with Node.
+- [twitter](https://github.com/tatsuyaoiw/twitter) - A minimal Twitter clone, built with Node and Redis.
+
+### Tools
+
+- [rakuten-ad-block](https://github.com/tatsuyaoiw/rakuten-ad-block) - Chrome extension: Hide ads from Rakuten Ichiba search results
+- [git-pull-all](https://github.com/tatsuyaoiw/git-pull-all) - Concurrent git pull executor for multiple git repositories.
+
+Find more on [Github](https://github.com/tatsuyaoiw).
+
+## Skills
+
+### Programming
+
+- Java
+- JavaScript (Node.js)
+- Ruby
+- Python
+
+### Middlewares
+
+- Lucene/Solr/ElasticSearch
+- Nginx
+- Zookeeper
+- Cassandra
+- Hadoop
+
+### Tools
+
+- Chef
+- Vagrant
+
+### Operating Systems
+
+- Linux (CentOS, Ubuntu)
+
+### Language
+
+Fluent in Japanese, proficient in English (speaking, reading, writing)
