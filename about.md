@@ -11,7 +11,7 @@ Besides work, I translated a book [ElasticSearch Server](https://www.packtpub.co
 
 I like building things that are clean, easy to use, and easy to integrate with others.
 
-You can find me on [Twitter](https://twitter.com/tatsuyaoiw) and on [Github](https://github.com/tatsuyaoiw).
+You can also find me on [Twitter](https://twitter.com/tatsuyaoiw), on [LinkedIn](https://www.linkedin.com/in/tatsuyaoiw), and on [Github](https://github.com/tatsuyaoiw).
 
 ## Personal Projects
 
@@ -24,13 +24,13 @@ Here are some of codes, mostly written in Node.js.
 
 ### Web Apps
 
-- [simple-search-engine](https://github.com/tatsuyaoiw/simple-search-engine) - Minimalist search engine, tf-idf text retrieval with an inverted index, written with Node.
 - [twitter](https://github.com/tatsuyaoiw/twitter) - A minimal Twitter clone, built with Node and Redis.
+- [simple-search-engine](https://github.com/tatsuyaoiw/simple-search-engine) - Minimalist search engine, tf-idf text retrieval with an inverted index, written with Node.
 
 ### Tools
 
-- [rakuten-ad-block](https://github.com/tatsuyaoiw/rakuten-ad-block) - Chrome extension: Hide ads from Rakuten Ichiba search results
 - [git-pull-all](https://github.com/tatsuyaoiw/git-pull-all) - Concurrent git pull executor for multiple git repositories.
+- [rakuten-ad-block](https://github.com/tatsuyaoiw/rakuten-ad-block) - Chrome extension: Hide ads from Rakuten Ichiba search results
 
 Find more on [Github](https://github.com/tatsuyaoiw).
 
