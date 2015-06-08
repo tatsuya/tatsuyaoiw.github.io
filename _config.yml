@@ -6,6 +6,9 @@ redcarpet:
 # Google analytics
 google_analytics:    UA-11963754-5
 
+# Twitter
+twitter:             tatsuyaoiw
+
 #
 # Permalinks
 #
@@ -14,7 +17,7 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               "@tatsuyaoiw"
+title:               Tatsuya Oiwa
 url:                 http://tatsuyaoiw.com
 paginate:            1
 
