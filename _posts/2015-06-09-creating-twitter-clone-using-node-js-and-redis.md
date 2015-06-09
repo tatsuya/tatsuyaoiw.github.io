@@ -83,10 +83,18 @@ ZREVRANGE user:123:followers 0 4
 INCR tweet:ids => 1
 ```
 
+ツイートオフジェクトのフィールド一覧。
+
 ```
 text（ツイートのテキスト）
 created_at（ツイートした時間）
 user_id (ツイートしたユーザーのID)
+```
+
+ツイートの投稿。
+
+```
+HMSET tweet:1 text "Peace and Love" created_at 1401267618 user_id 123
 ```
 
 ## タイムライン
