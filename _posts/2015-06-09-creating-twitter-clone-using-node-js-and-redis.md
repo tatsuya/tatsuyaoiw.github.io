@@ -32,7 +32,7 @@ date: 2015-06-09 09:29
 INCR user:ids
 ```
 
-上記のIDを元に各ユーザーのオブジェクトを生成し、Redisの[Hash](http://redis.io/topics/data-types)に保存する。オブジェクトのフィールド定義は以下の通り。
+上記のIDを元に各ユーザーのオブジェクトを生成し、Redisの[Hash](http://redis.io/topics/data-types)に保存する。ユーザーオブジェクトのフィールド定義は以下の通り。
 
 ```
 name (ユーザー名)
@@ -46,6 +46,8 @@ fullname（ユーザーのフルネーム）
 INCR user:ids => 123
 HMSET user:123 name "bob" pass "asdfjkl;" fullname "Bob Marley"
 ```
+
+[HMSET](http://redis.io/commands/hmset)コマンドを使い、`user:123`というキーに対して、Hashオブジェクトを値として登録している。
 
 ## フォロー/フォロワー
 
