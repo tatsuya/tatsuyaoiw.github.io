@@ -99,23 +99,30 @@ HMSET tweet:1 text "Peace and Love" created_at 1401267618 user_id 123
 
 ## タイムライン
 
-タイムラインは、以下の2種類を別々に実装した。
+タイムラインは、次の2種類を別々に実装した。
 
 - [user_timeline](https://dev.twitter.com/rest/reference/get/statuses/user_timeline) - ユーザーのツイート一覧
 - [home_timeline](https://dev.twitter.com/rest/reference/get/statuses/home_timeline) - ユーザーがフォローしているユーザーのツイート一覧
 
-各タイムラインは時系列順に並べられるため、フォロー/フォロワーで使用したのと同じく[Sorted Set](http://redis.io/topics/data-types)を使用する。
+各タイムラインはそれぞれ時系列順に並べられるため、フォロー/フォロワーで使用したのと同じく[Sorted Set](http://redis.io/topics/data-types)を使用する。
 
 ```
 user:123:user_timeline => Sorted Set: ユーザーのツイートIDのリスト
 user:123:home_timeline => Sorted Set: ユーザーがフォローしているユーザのツイートIDのリスト
 ```
 
-あるユーザーからツイートが投稿されると、まずそのユーザーの`user_timeline`にツイートを追加する。続いて、そのユーザーをフォロワーに登録しているユーザーの`home_timeline`に、同じくツイートを登録する。
+あるユーザーがツイートを投稿すると、まずそのユーザーの`user_timeline`にツイートIDが追加される。続いて、そのユーザー自身の`home_timeline`にツイートIDを登録した後、さらにそのユーザーをフォローしているユーザーの`home_timeline`にも、同じツイートIDを登録する。
 
-なお、この処理はフォロワーの数によってパフォーマンスに与える影響が大きく変わる可能性があるので注意が必要である。例えば、あるユーザーのフォロワーが100,000人いたとして、そのユーザーがツイートすると、1 + 100,000回のWrite処理が実行されることになる。この辺りのチューニングは今回の実装では全く行っていないため、もしユーザー劇的に増えるようなことがあれば対応しなくてはならない。
+```
+ZADD user:123:user_timeline 1401267618 1
+ZADD user:123:home_timeline 1401267618 1
+ZADD user:456:home_timeline 1401267618 1
+...
+```
 
-さて、タイムラインの取得は、フォロー/フォロワーと同じく[ZREVRANGE](http://redis.io/commands/zrevrange)コマンドを使えばよい。
+なお、この処理はフォロワーの数によってパフォーマンスに与える影響が大きく変わる可能性があるので注意が必要となる。例えば、あるユーザーのフォロワーが100,000人いたとして、そのユーザーがツイートすると、1 + 100,000回のWrite処理が実行されることになる。この辺りのチューニングは今回の実装では全く行っていないので、もしユーザー劇的に増えるようなことがあれば対応しなくてはならない。
+
+さて、タイムラインの取得は、フォロー/フォロワーと同じく[ZREVRANGE](http://redis.io/commands/zrevrange)コマンドを使えばよい。最新の50ツイートを取得する場合、以下のような実装となる。
 
 ```
 ZREVRANGE user:123:home_timeline 0 49
@@ -123,7 +130,7 @@ ZREVRANGE user:123:home_timeline 0 49
 
 ## アプリケーションのデプロイ
 
-デプロイ先には[Heroku](https://www.heroku.com/)を利用した。[Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)というチュートリアルがあるので詳細は説明は省くが、ざっくり以下の手順でデプロイできる。
+デプロイ先には[Heroku](https://www.heroku.com/)を利用した。[Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)というチュートリアルがあるので詳細な説明は省くが、ざっくり以下の手順でデプロイできる。
 
 `Procfile`の作成。
 
