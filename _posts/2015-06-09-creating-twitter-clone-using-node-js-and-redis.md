@@ -154,6 +154,3 @@ $ git push heroku master
 - [twissandra/twissandra](https://github.com/twissandra/twissandra) - PythonとCassandraを使ったTwitterのクローン
 
 特に、[Redisのサイトで紹介されているRetwisのチュートリアル](http://redis.io/topics/twitter-clone)はわかりやすくてとても参考になった。
-
-
-
