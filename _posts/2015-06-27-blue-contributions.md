@@ -8,7 +8,7 @@ date: 2015-06-27 21:32
 
 ![]({{ site.url }}/assets/tile.jpg)
 
-こんな感じのタイル貼りの柱を見つけて、これGithubのContributions Graph（通称「芝生」と呼ばれる部分）だと思って作ってみたのがこの[Blue Contributions](https://github.com/tatsuyaoiw/blue-contributions)というChrome拡張。
+こんな感じのタイル貼りの柱を見つけて、これGithubのContributions Graph（通称「芝生」と呼ばれる部分）っぽいなと思って作ってみたのがこの[Blue ContributionsというChrome拡張](https://github.com/tatsuyaoiw/blue-contributions)。
 
 [Chrome Web Store](https://chrome.google.com/webstore/detail/blue-contributions/pcfbckddgnmniimphfeoioghgcddifcd)からインストールすると、緑色だった芝生が青くなります。
 
