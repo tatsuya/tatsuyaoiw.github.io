@@ -7,7 +7,7 @@ Hi, my name is Tatsuya Oiwa. I am a software engineer working in Tokyo.
 
 I joined [Rakuten](http://global.rakuten.com/corp/) in 2010 after graduating from [Shizuoka University](https://www.shizuoka.ac.jp/english/subject/index.html). At Rakuten, I mainly work on things related to search and DevOps, including deployment automation for large scale e-commerce search engine (200 million docs on 1000+ nodes), and tools development for relevancy tuning.
 
-Besides work, I translated a book [ElasticSearch Server](https://www.packtpub.com/big-data-and-business-intelligence/elasticsearch-server) from English to Japanese. Not it is available as a [Japanese edition](http://ascii.asciimw.jp/books/books/detail/978-4-04-866202-4.shtml).
+Besides work, I translated a book [ElasticSearch Server](https://www.packtpub.com/big-data-and-business-intelligence/elasticsearch-server) from English to Japanese. Now it is available as a [Japanese edition](http://ascii.asciimw.jp/books/books/detail/978-4-04-866202-4.shtml).
 
 I like building things that are clean, easy to use, and easy to integrate with others.
 
