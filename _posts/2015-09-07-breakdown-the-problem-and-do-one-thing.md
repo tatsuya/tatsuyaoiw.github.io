@@ -28,7 +28,7 @@ Break down approachというのは、ある大きな問題をより粒度の小�
 
 ```java
 public void prepareToGoOut() {
-    wakeUp()；
+    wakeUp();
     brushTeeth();
     takeShower();
 }
@@ -40,7 +40,7 @@ public void prepareToGoOut() {
 
 ```java
 public void prepareToGoOut() {
-    wakeUp()；
+    wakeUp();
     brushTeeth();
     takeShower();
 }
