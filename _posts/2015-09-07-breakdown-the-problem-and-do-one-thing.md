@@ -4,7 +4,7 @@ title: iTunes UでStanfordのProgramming Methodologyの授業観てる
 date: 2015-09-07 10:10
 ---
 
-今、第3回の講義見終わったのでそのメモ忘れないうちに書いておく。
+今、第3回の講義見終わったので忘れないうちメモっとく。
 
 ## Break down approach & Bottom up approach
 
@@ -20,47 +20,47 @@ Break down approachというのは、ある大きな問題をより粒度の小�
 
 さらに、例えば2の「歯を磨く」というタスクは次のように分解できるだろう。
 
-2-1. 歯ブラシをとる
-2-2. 歯磨き粉をつける
-2-3. 歯ブラシを歯の上で動かす
+1. 歯ブラシをとる
+2. 歯磨き粉をつける
+3. 歯ブラシを歯の上で動かす
 
 プログラミングもこれと同じで、解決したい一番大きな問題を最初に最上位のメソッドとして定義しておき、そのメソッドの本体により小さな問題を解決するメソッドのCallerを先に書いてしまう。
 
-```
+```java
 public void prepareToGoOut() {
-  wakeUp()；
-  brushTeeth();
-  takeShower();
+    wakeUp()；
+    brushTeeth();
+    takeShower();
 }
 ```
 
-このとき、まだ`wakeUp()`、`brushTeeth()`、`takeShower()`の各メソッドは実装されていない。IDEを使っていると、`wakeUp()`、`brushTeeth()`、`takeShower()`の下には赤い波線か何かで "Method not implemented!"などとWarningが出るかもしれないが焦ってはいけない。
+このとき重要なのが、まだ`wakeUp()`、`brushTeeth()`、`takeShower()`の各メソッドは実装されていないという点である。IDEなどを使っていると、`wakeUp()`、`brushTeeth()`、`takeShower()`の下には赤い波線か何かで "Method not implemented!"などとWarningが出るかもしれないがエディターに惑わされてはいけない。
 
 次に、先に定義していおいたCallerの実装を書く。その際、例えば`brushTeeth()`の実装が大きすぎるなと感じたら、またさらにそこから小さなメソッドへと分解していき、これを繰り返す。
 
-```
+```java
 public void prepareToGoOut() {
-  wakeUp()；
-  brushTeeth();
-  takeShower();
+    wakeUp()；
+    brushTeeth();
+    takeShower();
 }
 
 private void wakeUp() {
-  ...
+    ...
 }
 
 private void brushTeeth() {
-  takeBrush();
-  takeToothpaste();
-  moveOnTooth();
+    takeBrush();
+    takeToothpaste();
+    moveOnTooth();
 }
 
 private void takeShower() {
-  ...
+    ...
 };
 ```
 
-Bottom up approachは、Break down approachとは対になる考え方で、最初に小さな単位のメソッドを実装してから徐々に大きな問題への解決へと向かっていく方法である。プログラミング初学者は、最初どうしてもこのBottom up approachになってしまうらしいが、訓練することでだんだんとBreak down approach的な考え方ができるようになってくるそうだ。
+Bottom up approachは、Break down approachとは対になる考え方で、最初に小さな単位のメソッドを実装してから徐々に大きな問題への解決へと向かっていく方法である。プログラミング初学者は、最初どうしてもこのBottom up approachになってしまいがちらしいが、訓練することでだんだんとBreak down approach的な考え方ができるようになってくるそうだ。
 
 ## Do one thing
 
