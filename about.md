@@ -3,63 +3,52 @@ layout: page
 title: About
 ---
 
-Hi, my name is Tatsuya Oiwa. I am a software engineer working in Tokyo.
+Tatsuya Oiwa is a software engineer based in Tokyo, currently works at [GILT Japan](https://www.gilt.jp/) as a backend services engineer. Previously, he had been working at [Rakuten](http://www.rakuten.co.jp/), the Japan's largest online shopping mall, for more thatn 6 years. There he mainly focused on backend, large scale, distributed systems design and development for e-commerce search engine. He writes code in Java at work, while he loves writing JavaScript (Node.js) for his private project or fast prototyping.
 
-I joined [Rakuten](http://global.rakuten.com/corp/) in 2010 after graduating from [Shizuoka University](https://www.shizuoka.ac.jp/english/subject/index.html). At Rakuten, I mainly focus on things related to search and DevOps, including deployment automation for large scale e-commerce search engine (200 million docs on 1000+ nodes), and tools development for relevancy tuning.
+Here are some of my preferences and tools:
 
-Besides work, I translated a book [ElasticSearch Server](https://www.packtpub.com/big-data-and-business-intelligence/elasticsearch-server) from English to Japanese. Now it is available as a [Japanese edition](http://ascii.asciimw.jp/books/books/detail/978-4-04-866202-4.shtml).
+## Programming languages
 
-I like building things that are clean, easy to use, and easy to integrate with others.
-
-You can also find me on [Twitter](https://twitter.com/tatsuyaoiw), on [LinkedIn](https://www.linkedin.com/in/tatsuyaoiw), and on [Github](https://github.com/tatsuyaoiw).
-
-## Personal Projects
-
-Here are some of codes, mostly written in Node.js.
-
-### Libraries
-
-- [node-rakuten](https://github.com/tatsuyaoiw/node-rakuten) - Node.js client library for Rakuten Web Service API.
-- [webstorage](https://github.com/tatsuyaoiw/webstorage) - A simple, pluggable, W3C Web Storage compliant API for key-value data.
-
-### Web Apps
-
-- [twitter](https://github.com/tatsuyaoiw/twitter) - A minimal Twitter clone, built with Node and Redis.
-- [simple-search-engine](https://github.com/tatsuyaoiw/simple-search-engine) - Minimalist search engine, tf-idf text retrieval with an inverted index, written with Node.
-
-### Tools
-
-- [git-pull-all](https://github.com/tatsuyaoiw/git-pull-all) - Concurrent git pull executor for multiple git repositories.
-- [rakuten-ad-block](https://github.com/tatsuyaoiw/rakuten-ad-block) - Chrome extension: Hide ads from Rakuten Ichiba search results
-
-Find more on [Github](https://github.com/tatsuyaoiw).
-
-## Skills
-
-### Programming
+- Java
+  - Guava
+  - Guice
+  - Jetty
+  - Jersey
+  - Restlet
+  - JUnit
+  - Mockito
 
 - JavaScript (Node.js)
-- Java
-- Ruby
-- Python
+  - Express
+  - Async
+  - Mocha
 
-### Middlewares
+- Python
+- Ruby
+
+## Middlewares
 
 - Lucene/Solr/ElasticSearch
 - Nginx
 - Zookeeper
 - Cassandra
-- Hadoop
+- Redis
+- PostgreSQL
 
-### Tools
+## Tools
 
 - Chef
 - Vagrant
+- Docker
 
-### Operating Systems
+## Operating Systems
 
 - Linux (CentOS, Ubuntu)
 
-### Language
+## Natural Language
 
 Fluent in Japanese, proficient in English (speaking, reading, writing)
+
+## Social
+
+You can also find me on [Twitter](https://twitter.com/tatsuyaoiw), on [LinkedIn](https://www.linkedin.com/in/tatsuyaoiw), or on [Github](https://github.com/tatsuyaoiw).
