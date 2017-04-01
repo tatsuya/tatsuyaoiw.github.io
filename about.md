@@ -35,7 +35,7 @@ Tatsuya Oiwa is a software engineer with 7 years hands-on experience in server-s
 ## Natural Language
 
 - Fluent in Japanese
-- Proficient in English (speaking, reading, writing). TOEIC: 900.
+- Proficient in English (speaking, reading, writing), TOEIC: 900
 
 ## Social
 
