@@ -24,7 +24,7 @@
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #ccc;
 }
 
 .page-title {
@@ -60,5 +60,30 @@
         color: inherit;
       }
     }
+  }
+}
+
+.archive-item {
+  margin-bottom: 1rem;
+  overflow: auto;
+}
+
+.archive-year {
+  margin-bottom: 1rem;
+}
+
+.archive-item + .archive-year {
+  margin-top: 2rem;
+}
+
+.archive-date {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: 30em) {
+  .archive-date {
+    float: right;
+    margin-left: 1rem;
   }
 }
