@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Tatsuya Oiwa is a software engineer with 7+ years hands-on experience in server-side, large-scale, distributed design and development. His specialities include microservices, RESTful services, domain-driven design, retail and e-commerce, information retrieval, etc.
+Tatsuya Oiwa is a software engineer with 7+ years hands-on experience in server-side, large-scale, distributed systems design and development. His specialities include microservices, RESTful services, domain-driven design, retail and e-commerce, information retrieval, etc.
 
 ## Programming language
 
