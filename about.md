@@ -3,18 +3,18 @@ layout: page
 title: About
 ---
 
-Tatsuya Oiwa is a software engineer with 7 years hands-on experience in server-side, large-scale, distributed systems development and operation. He is currently working at [GILT Japan](https://www.gilt.jp/), one of the leading online fashion retailers based in Tokyo (originally from New York), as a backend services engineer. He mostly writes his code in Java, sometimes in JavaScript (Node.js), Ruby and Python. His current focus is on growing the business by providing better shopping experience as well as keeping the code base clean and maintainable. Before joining GILT, he had been working at [Rakuten](http://www.rakuten.co.jp/) and there building in-house, scalable, self-service e-commerce search platform.
+Tatsuya Oiwa is a software engineer with 7+ years hands-on experience in server-side, large-scale, distributed design and development. His specialities include microservices, RESTful services, domain-driven design, retail and e-commerce, information retrieval, etc.
 
 ## Programming language
 
-- Java 8 (Jersey, Jetty, Guice, Guava, Lombok, TestNG, Mockito)
-- JavaScript (Node.js, Express, Mocha)
-- Ruby
-- Python
+- Proficient: Java 8 (Jetty, Jersey, Jackson, Guice, Guava, MyBatis, Lombok)
+- Intermediate: JavaScript (Node.js, Express, Mocha)
+- Beginner: Ruby
+- Beginner: Python
 
 ## Middleware
 
-- Lucene/ElasticSearch/Solr
+- Lucene/Elasticsearch/Solr
 - Nginx
 - Zookeeper
 - Cassandra
