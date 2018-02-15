@@ -6,11 +6,32 @@
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
+
+  // Styles stole from http://markdotto.com/projects/
+
+  ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 1.5em;
+  }
+
+  .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+    }
+
+    li + li {
+      margin-left: .5rem;
+    }
+  }
 }
 
 .masthead-title {
   margin-top: 0;
-  margin-bottom: 0;
   color: #505050;
 
   a {
@@ -22,9 +43,5 @@
     font-weight: 400;
     color: #c0c0c0;
     letter-spacing: 0;
-
-    a {
-      margin-left: 20px;
-    }
   }
 }
