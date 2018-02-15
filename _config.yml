@@ -1,5 +1,5 @@
 # Markdown
-markdown:            redcarpet
+markdown:            kramdown
 redcarpet:
   extensions:        ["tables"]
 
