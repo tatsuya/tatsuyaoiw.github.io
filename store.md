@@ -7,6 +7,8 @@ title: フリマ
 
 ## [日産 セレナ](https://ja.wikipedia.org/wiki/%E6%97%A5%E7%94%A3%E3%83%BB%E3%82%BB%E3%83%AC%E3%83%8A#4%E4%BB%A3%E7%9B%AE_C26%E5%9E%8B%EF%BC%882010%E5%B9%B4_-_2016%E5%B9%B4%EF%BC%89) - 190万円
 
+![serena]({{ site.url }}/assets/serena.jpg)
+
 - モデル: C26後期
 - カラー: ブラック
 - 走行距離: 11000km
