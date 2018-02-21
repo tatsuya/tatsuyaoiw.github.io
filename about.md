@@ -40,3 +40,7 @@ Tatsuya Oiwa is a software engineer with 7+ years hands-on experience in server-
 ## Social
 
 You can also find me on [Twitter](https://twitter.com/tatsuyaoiw), [LinkedIn](https://www.linkedin.com/in/tatsuyaoiw), or [Github](https://github.com/tatsuyaoiw).
+
+## Resume
+
+My resume is on [Github - tatsuyaoiw/resume](https://github.com/tatsuyaoiw/resume).
