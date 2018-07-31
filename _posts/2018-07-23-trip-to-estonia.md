@@ -19,6 +19,7 @@ date: 2018-07-23 08:35
 
 ## 関連記事
 
+- [エストニア感想]({{ site.baseurl }}{% post_url 2018-07-23-trip-to-estonia %})
 - [マヨルカ島感想]({{ site.baseurl }}{% post_url 2018-07-30-trip-to-mallorca %})
 
 ## 飛行機
