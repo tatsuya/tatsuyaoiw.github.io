@@ -2,6 +2,7 @@
 layout: post
 title: マヨルカ島感想
 date: 2018-07-30 11:16
+published: false
 ---
 
 エストニアに続いてスペインのマヨルカ島に旅行に行った。
@@ -20,8 +21,6 @@ date: 2018-07-30 11:16
 ## 関連記事
 
 - [エストニア感想]({{ site.baseurl }}{% post_url 2018-07-23-trip-to-estonia %})
-- [マヨルカ島感想]({{ site.baseurl }}{% post_url 2018-07-30-trip-to-mallorca %})
-- [バルセロナ感想]({{ site.baseurl }}{% post_url 2018-07-31-trip-to-barcelona %})
 
 ## 飛行機
 
