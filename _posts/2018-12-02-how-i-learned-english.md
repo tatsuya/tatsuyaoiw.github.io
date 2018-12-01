@@ -73,7 +73,7 @@ published: true
 
 ## 外資系の企業に転職して2年くらい英語だけで働いてみる
 
-そんなこんなで3年くらい同じチームで働いていました。さすがに3年もやってると英語もそこそこ話せるようになります。この頃には英語で仕事をすることにほとんど不安はなく、さらに別の会社でも力試しをしてみたいと思うようになりました。転職を視野に入れて[LinkedInのプロフィール](https://www.linkedin.com/in/tatsuyaoiw/)を書き、[英語のResume（職務経歴書）](https://github.com/tatsuyaoiw/resume)を作って、[Cracking the Coding Interview](http://www.crackingthecodinginterview.com/)の問題を1問1問解きながら、アメリカの大企業10社ぐらいに応募するなどをしてみます。
+そんなこんなで3年くらい同じチームで働いていました。さすがに3年もやってると英語もそこそこ話せるようになります。この頃には英語で仕事をすることにほとんど不安はなく、さらに別の会社でも力試しをしてみたいと思うようになりました。転職を視野に入れて[LinkedInのプロフィール](https://www.linkedin.com/in/tatsuyaoiw/)を書き、[英語のResume（職務経歴書）](https://github.com/tatsuyaoiw/resume)を作って、[Cracking the Coding Interview](http://www.crackingthecodinginterview.com/)の問題を1問1問解きながら、アメリカの企業10社ぐらいに応募するなどをしてみます。
 
 これは今考えると本当に無駄でしかないのですが、アメリカの企業で働くにはそもそも就労VISAが必要なので、応募したところで並のソフトウェアエンジニアが面接などにたどり着けるわけがありません。この手の話題は「アメリカ ソフトウェアエンジニア ビザ」とかでググると山ほど出てきて、すでに語り尽くされてる感があるのですが、以下の記事なんかを読むといかにこれが無理ゲーであるかがわかるのでオススメです。
 
