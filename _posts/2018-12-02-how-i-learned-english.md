@@ -1,7 +1,7 @@
 ---
 layout: post
 title: どうやって英語を勉強したか
-date: 2018-12-01 00:00
+date: 2018-12-02 00:00
 published: true
 ---
 
