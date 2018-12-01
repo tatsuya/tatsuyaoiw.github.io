@@ -9,9 +9,9 @@ published: true
 
 ## はじめに
 
-こんばんは。NewsPicksでバックエンドエンジニアをしている[@tatsuyaoiw](https://twitter.com/tatsuyaoiw)です。NewsPicksに入社して今日でちょうど9ヶ月が経ちました。
+こんばんは。NewsPicksでソフトウェアエンジニアをしている[@tatsuyaoiw](https://twitter.com/tatsuyaoiw)です。NewsPicksに入社して今日でちょうど9ヶ月が経ちました。
 
-入社して以来一貫してアメリカ版NewsPicksの開発を担当していましたが、今年の7月にNewsPicksの親会社であるUzabase（ユーザベース）がアメリカの経済メディア[Quartz](https://qz.com/app/)を買収したことをきっかけに、現在はQuartzの会員システムやコミュニティ、ニュースキュレーションなどの機能の開発を日々行なっています。NewsPicksとQuartzの関係性については、こちらの記事に詳しく書かれています。
+入社して以来一貫してアメリカ版NewsPicksの開発を担当していましたが、今年の7月にNewsPicksの親会社であるUzabase（ユーザベース）がアメリカの経済メディア[Quartz](https://qz.com/app/)を買収したことをきっかけに、現在はQuartzの会員システムやコミュニティ、ニュースキュレーションなどの機能のサーバーサイドを中心に日々開発を行なっています。NewsPicksとQuartzの関係性については、こちらの記事に詳しく書かれています。
 
 - [【買収発表】NewsPicksが米クオリティ経済メディア「Quartz」を買収する理由](https://newspicks.com/news/3142851/)
 - [「QuartzとNewsPicks USAを一体化し、意思決定のスピードを上げていく」――ユーザベース2018年第3四半期決算説明会レポート](https://newspicks.com/news/3453703/)
