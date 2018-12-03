@@ -3,6 +3,7 @@ layout: post
 title: プログラマーが世界で通用するレベルの英語を身につけるまで - NewsPicks Advent Calendar 2018
 date: 2018-12-02 00:00
 published: true
+image: 2018-12-02-how-i-learned-english.jpg
 ---
 
 この記事は、[NewsPicks Advent Calendar 2018](https://qiita.com/advent-calendar/2018/newspicks) の2日目の記事です。
