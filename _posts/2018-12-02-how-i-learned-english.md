@@ -1,6 +1,6 @@
 ---
 layout: post
-title: どうやって英語を勉強したか
+title: プログラマーが世界で通用するレベルの英語を身につけるまで - NewsPicks Advent Calendar 2018
 date: 2018-12-02 00:00
 published: true
 ---
