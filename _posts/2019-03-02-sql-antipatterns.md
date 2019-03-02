@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQLアンチパターン読んだ
+title: 「SQLアンチパターン」読んだ
 date: 2019-03-01 10:58
 published: true
 ---
