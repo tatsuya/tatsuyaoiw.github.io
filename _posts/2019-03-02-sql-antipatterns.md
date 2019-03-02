@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 「SQLアンチパターン」読んだ
-date: 2019-03-01 10:58
+date: 2019-03-02 10:58
 published: true
 ---
 
