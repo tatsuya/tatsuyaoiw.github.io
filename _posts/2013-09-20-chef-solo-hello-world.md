@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "ChefでHello, World!"
-date:   2013-09-20 10:58:00
+title: ChefでHello, World!
+date: 2013-09-20 10:58:00
+categories: [Japanese]
 ---
 
 [Chef](http://www.opscode.com/chef/ "Chef")はサーバの状態をコードに記述しておくことで、デプロイメントや設定の更新を自動化するツール。

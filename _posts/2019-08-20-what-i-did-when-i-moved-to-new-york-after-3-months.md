@@ -3,6 +3,7 @@ layout: post
 title: ニューヨークに移住するときにやったこと（3ヶ月後）
 date: 2019-08-20 22:19
 published: true
+categories: [Japanese]
 ---
 
 [前回](https://tatsuyaoiw.com/2019/06/06/what-i-did-when-i-moved-to-new-york/)の続きです。2019/5/24に日本からアメリカのニューヨーク市に移住して約3ヶ月が経ちました。

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "JavaScriptのスコープについて"
-date:  2014-08-02 15:42
+title: JavaScriptのスコープについて
+date: 2014-08-02 15:42
+categories: [Japanese]
 ---
 
 スコープとは、変数が参照可能な範囲のことである。

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "tmuxのインストールと設定"
-date:  2014-07-29 21:18
+title: tmuxのインストールと設定
+date: 2014-07-29 21:18
+categories: [Japanese]
 ---
 
 [tmux](http://tmux.sourceforge.net/)使い始めたので一応書いとく。

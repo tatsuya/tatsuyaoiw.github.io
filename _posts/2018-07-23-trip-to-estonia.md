@@ -2,6 +2,7 @@
 layout: post
 title: エストニア感想
 date: 2018-07-23 08:35
+categories: [Japanese]
 ---
 
 ![Tallinn]({{ site.url }}/assets/2018-07-23-trip-to-estonia_tallinn.jpg)

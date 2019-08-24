@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "JavaScript (Node.js) で空のオブジェクトを評価する"
-date:   2013-05-27 18:27:00
+title: JavaScript (Node.js) で空のオブジェクトを評価する
+date: 2013-05-27 18:27:00
+categories: [Japanese]
 ---
 
 JavaScriptで条件分岐を書くときのために。

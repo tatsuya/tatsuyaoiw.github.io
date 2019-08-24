@@ -3,6 +3,7 @@ layout: post
 title: JavaScriptのargumentsオブジェクトについて
 summary: JavaScriptの関数の引数リストを取得する arguments オブジェクトの説明と使用例
 date: 2015-01-28 22:58
+categories: [Japanese]
 ---
 
 ## argumentsオブジェクト

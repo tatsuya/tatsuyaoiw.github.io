@@ -3,6 +3,7 @@ layout: post
 title: JavaScriptの巻き上げ（ホイスティング）について
 summary: JavaScriptの巻き上げ（ホイスティング - Hoisting）についてのメモ
 date: 2015-01-19 18:19
+categories: [Japanese]
 ---
 
 Javascriptで変数を宣言するとき、その変数宣言はスコープの一番上へと巻き上げ（ホイスティング - Hoisting）られる。

@@ -3,6 +3,7 @@ layout: post
 title: 「SQLアンチパターン」読んだ
 date: 2019-03-02 10:58
 published: true
+categories: [Japanese]
 ---
 
 [SQLアンチパターン](https://www.oreilly.co.jp/books/9784873115894/)読みながら[Twitterでつぶやいてた](https://twitter.com/tatsuyaoiw/status/1086442006497247232

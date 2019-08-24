@@ -3,6 +3,7 @@ layout: post
 title: ECMAScriptとは
 summary: ECMAScript5とかECMA-262とかJavaScriptとか
 date: 2014-12-23 22:33
+categories: [Japanese]
 ---
 
 ECMAScript5とかECMA-262とかJavaScriptとかをハッキリさせたい。以下、[Wikipedia][ECMAScript]より。

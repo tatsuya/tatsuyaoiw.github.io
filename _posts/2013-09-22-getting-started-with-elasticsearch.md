@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Elasticsearchで全文検索"
-date:   2013-09-22 07:19:00
+title: Elasticsearchで全文検索
+date: 2013-09-22 07:19:00
+categories: [Japanese]
 ---
 
 ## インストール
