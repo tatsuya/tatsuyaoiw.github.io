@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Tatsuya Oiwa is a software engineer with 7+ years hands-on experience in server-side, large-scale, distributed systems design and development. His specialities include microservices, RESTful services, domain-driven design, retail and e-commerce, information retrieval, etc.
+Hi 👋 My name is Tatsuya Oiwa. I am a software engineer with 9+ years hands-on experience in backend services design and development for large-scale consumer platforms. I have extensive knowledge of service-oriented architecture, APIs, clean code, refactoring, internationalization, and localization. I am a quick learner and highly adaptable to new technologies.
 
 You can also find me on [Twitter](https://twitter.com/tatsuyaoiw), [LinkedIn](https://www.linkedin.com/in/tatsuyaoiw), or [Github](https://github.com/tatsuyaoiw).
 
