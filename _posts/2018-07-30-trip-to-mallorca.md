@@ -3,7 +3,7 @@ layout: post
 title: マヨルカ島感想
 date: 2018-07-30 11:16
 published: false
-categories: [Japanese]
+tags: [Japanese]
 ---
 
 エストニアに続いてスペインのマヨルカ島に旅行に行った。

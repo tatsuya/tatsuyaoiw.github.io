@@ -3,7 +3,7 @@ layout: post
 title: 2014年の思い出
 summary: 今年やったことを書いていく
 date: 2014-12-31 23:59
-categories: [Japanese]
+tags: [Japanese]
 ---
 
 ## Elasticsearch

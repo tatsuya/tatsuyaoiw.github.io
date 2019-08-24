@@ -3,7 +3,7 @@ layout: post
 title: The Power of Population
 date: 2019-08-23 23:29
 published: true
-categories: [English]
+tags: [English]
 ---
 
 There's one thing I have wanted to do for a long time: writing blog posts in English. And here it comes.

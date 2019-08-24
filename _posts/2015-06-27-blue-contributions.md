@@ -2,7 +2,7 @@
 layout: post
 title: GithubのContributions Graphを緑から青に変えるChrome拡張作った
 date: 2015-06-27 21:32
-categories: [Japanese]
+tags: [Japanese]
 ---
 
 昨日、[テラスモール湘南](http://terracemall-shonan.com/)で買い物してたら、

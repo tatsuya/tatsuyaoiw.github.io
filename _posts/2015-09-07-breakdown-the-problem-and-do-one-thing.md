@@ -2,7 +2,7 @@
 layout: post
 title: iTunes UでStanfordのProgramming Methodologyの授業観てる
 date: 2015-09-07 10:10
-categories: [Japanese]
+tags: [Japanese]
 ---
 
 今、第3回の講義見終わったので忘れないうちメモっとく。

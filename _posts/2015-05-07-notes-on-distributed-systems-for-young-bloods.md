@@ -3,7 +3,7 @@ layout: post
 title: 「Notes on Distributed Systems for Young Bloods」読んだ
 summary: 分散システムを勉強中
 date: 2015-05-07 18:48
-categories: [Japanese]
+tags: [Japanese]
 ---
 
 [Jeff Hodges](http://www.somethingsimilar.com/about/)の[Notes on Distributed Systems for Young Bloods](http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/)というブログ記事を読んだのでそのメモ。

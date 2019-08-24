@@ -2,7 +2,7 @@
 layout: post
 title: Node.jsでモジュールを作ってみる
 date: 2013-05-08 18:19:00
-categories: [Japanese]
+tags: [Japanese]
 ---
 
 ## はじめに

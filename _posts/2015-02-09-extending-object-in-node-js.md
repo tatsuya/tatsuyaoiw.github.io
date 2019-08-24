@@ -3,7 +3,7 @@ layout: post
 title: Node.jsでオブジェクト（モジュール）をextendする
 summary: underscore.extend や util._extend を使って既存モジュールを拡張する方法など
 date: 2015-02-09 18:24
-categories: [Japanese]
+tags: [Japanese]
 ---
 
 調べた結果、[underscore] の [extend] か [joyent/node] の [util._extend] を使うのが良さそう。

@@ -2,7 +2,7 @@
 layout: post
 title: Node.jsのEventsとEventEmitter
 date: 2014-07-23 19:49
-categories: [Japanese]
+tags: [Japanese]
 ---
 
 Node.jsの[Events](http://nodejs.org/api/events.html)モジュールを使って、独自のイベントを作成することができる。

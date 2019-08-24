@@ -3,7 +3,7 @@ layout: post
 title: バルセロナ感想
 date: 2018-07-30 11:16
 published: false
-categories: [Japanese]
+tags: [Japanese]
 ---
 
 エストニア、マヨルカ島に続いてバルセロナに旅行に行った。

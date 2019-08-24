@@ -2,7 +2,7 @@
 layout: post
 title: Elasticsearch + MongoDBを試す
 date: 2013-10-22 06:44:00
-categories: [Japanese]
+tags: [Japanese]
 ---
 
 ElasticsearchとMongoDBの組み合わせを試してみた。

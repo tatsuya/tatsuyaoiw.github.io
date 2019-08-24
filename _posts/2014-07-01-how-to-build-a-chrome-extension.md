@@ -2,7 +2,7 @@
 layout: post
 title: Chrome Extensionの作り方
 date: 2014-07-01 06:50
-categories: [Japanese]
+tags: [Japanese]
 ---
 
 ## 概要

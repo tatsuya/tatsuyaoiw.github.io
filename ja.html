@@ -5,9 +5,9 @@ title: Blog
 
 <h1>ブログ</h1>
 
-{% for category in site.categories %}
-  {% if category[0] == 'Japanese' %}
-    {% for post in category[1] %}
+{% for tag in site.tags %}
+  {% if tag[0] == 'Japanese' %}
+    {% for post in tag[1] %}
       {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
       {% if currentyear != year %}
         <h2 class="archive-year">{{ currentyear }}</h2>
