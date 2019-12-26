@@ -6,7 +6,7 @@ published: true
 tags: [Japanese]
 ---
 
-[前回](https://tatsuyaoiw.com/2019/06/06/what-i-did-when-i-moved-to-new-york/)の続きです。2019/5/24に日本からアメリカのニューヨーク市に移住して約3ヶ月が経ちました。
+[前回]({% post_url 2019-06-05-what-i-did-when-i-moved-to-new-york %})の続きです。2019/5/24に日本からアメリカのニューヨーク市に移住して約3ヶ月が経ちました。
 
 # やったこと
 
