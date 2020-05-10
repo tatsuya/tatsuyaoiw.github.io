@@ -14,15 +14,7 @@
     <!-- <hr class="sep--white"/> -->
 
     <div class="footer__container">
-      <!-- tags_list is not available in Github Pages. See https://github.com/samesies/barber-jekyll/issues/16 -->
-      <ul class="footer__tags">
-        <li><a class="footer__link" href="/tag/japanse">Japanese</a>
-        <li><a class="footer__link" href="/tag/english">English</a>
-      </ul>
-
-      {% comment %}
       {% tags_list :threshold => 1, :sort_by => count, :order_by => desc, :limit => 10 %}
-      {% endcomment %}
 
       {% include social.html %}
     </div>
