@@ -2,6 +2,7 @@
 layout: post
 title: Node.jsのEventsとEventEmitter
 date: 2014-07-23 19:49
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

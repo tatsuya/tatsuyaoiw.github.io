@@ -3,7 +3,8 @@ layout: post
 title: どうやって英語を勉強したか
 date: 2018-12-02 00:00
 published: true
-image: 2018-12-02-how-i-learned-english.jpg
+image: /assets/images/2018-12-02-how-i-learned-english.jpg
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

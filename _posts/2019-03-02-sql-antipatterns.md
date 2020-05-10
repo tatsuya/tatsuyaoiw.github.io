@@ -3,6 +3,7 @@ layout: post
 title: 「SQLアンチパターン」読んだ
 date: 2019-03-02 10:58
 published: true
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

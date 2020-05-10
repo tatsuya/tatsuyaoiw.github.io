@@ -3,6 +3,7 @@ layout: post
 title: 「リファクタリング」読んだ
 date: 2018-09-03 08:18
 published: true
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

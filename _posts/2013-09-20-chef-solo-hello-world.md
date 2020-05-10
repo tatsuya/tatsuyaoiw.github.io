@@ -2,6 +2,7 @@
 layout: post
 title: ChefでHello, World!
 date: 2013-09-20 10:58:00
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

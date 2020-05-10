@@ -3,6 +3,7 @@ layout: post
 title: JavaScriptのプロトタイプチェーンについて
 summary: JavaScriptのプロトタイプチェーン（Prototype Chain）やプロトタイプ継承（Prototype Inheritance）について熱く語ってます
 date: 2015-01-21 08:11
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

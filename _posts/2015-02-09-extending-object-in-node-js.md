@@ -3,6 +3,7 @@ layout: post
 title: Node.jsでオブジェクト（モジュール）をextendする
 summary: underscore.extend や util._extend を使って既存モジュールを拡張する方法など
 date: 2015-02-09 18:24
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

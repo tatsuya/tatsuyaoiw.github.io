@@ -2,6 +2,7 @@
 layout: post
 title: Elasticsearchで全文検索
 date: 2013-09-22 07:19:00
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

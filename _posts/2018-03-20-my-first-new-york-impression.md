@@ -2,6 +2,7 @@
 layout: post
 title: 初ニューヨーク感想
 date: 2018-03-20 05:15
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

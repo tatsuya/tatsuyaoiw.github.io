@@ -2,7 +2,9 @@
 layout: post
 title: ニューヨークに移住するときにやったこと
 date: 2019-06-06 22:08
+description: aaa
 published: true
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 
