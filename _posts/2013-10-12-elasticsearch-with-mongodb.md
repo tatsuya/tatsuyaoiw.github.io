@@ -2,6 +2,7 @@
 layout: post
 title: Elasticsearch + MongoDBを試す
 date: 2013-10-22 06:44:00
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

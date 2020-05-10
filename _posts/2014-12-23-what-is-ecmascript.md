@@ -3,6 +3,7 @@ layout: post
 title: ECMAScriptとは
 summary: ECMAScript5とかECMA-262とかJavaScriptとか
 date: 2014-12-23 22:33
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

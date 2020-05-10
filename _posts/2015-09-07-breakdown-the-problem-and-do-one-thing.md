@@ -2,6 +2,7 @@
 layout: post
 title: iTunes UでStanfordのProgramming Methodologyの授業観てる
 date: 2015-09-07 10:10
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

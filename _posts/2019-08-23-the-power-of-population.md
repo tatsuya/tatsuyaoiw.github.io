@@ -3,6 +3,7 @@ layout: post
 title: The Power of Population
 date: 2019-08-23 23:29
 published: true
+author: Tatsuya Oiwa
 tags: [English]
 ---
 

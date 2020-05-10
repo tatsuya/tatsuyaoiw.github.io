@@ -2,6 +2,7 @@
 layout: post
 title: JavaScriptのスコープについて
 date: 2014-08-02 15:42
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

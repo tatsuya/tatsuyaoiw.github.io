@@ -2,6 +2,7 @@
 layout: post
 title: TCP ConnectionのTIME-WAIT Stateについて調べたときに参考にしたリンクたち
 date: 2015-09-24 21:22
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

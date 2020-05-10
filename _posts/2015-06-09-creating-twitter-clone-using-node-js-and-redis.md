@@ -2,6 +2,7 @@
 layout: post
 title: Node.jsとRedisで作るTwitterクローン
 date: 2015-06-09 09:29
+author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 
