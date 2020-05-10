@@ -2,7 +2,6 @@
 layout: post
 title: 2015年の思い出
 date: 2016-01-12 00:30
-author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

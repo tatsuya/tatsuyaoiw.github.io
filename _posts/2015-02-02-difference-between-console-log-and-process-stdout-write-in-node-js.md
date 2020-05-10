@@ -3,7 +3,6 @@ layout: post
 title: Node.jsのconsole.logとprocess.stdout.writeの違い
 summary: 果たして違いはあるのか
 date: 2015-02-02 08:52
-author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

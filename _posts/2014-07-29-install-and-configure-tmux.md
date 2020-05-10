@@ -2,7 +2,6 @@
 layout: post
 title: tmuxのインストールと設定
 date: 2014-07-29 21:18
-author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

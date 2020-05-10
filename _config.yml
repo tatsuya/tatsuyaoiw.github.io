@@ -1,86 +1,34 @@
-# Site/SEO settings
-email: tatsuyaoiw@gmail.com
-baseurl: ""
-permalink: /:year/:month/:day/:title/
-google_analytics: 
+# Markdown
+markdown:            kramdown
+redcarpet:
+  extensions:        ["tables"]
 
-name: Tatsuya Oiwa
-title: Tatsuya Oiwa
-description: >
-  Tatsuya Oiwa's website.
-url: https://tatsuyaoiw.com
-twitter_username: tatsuyaoiw
-default_img: /assets/images/me.jpg
-social:
-  - name: twitter
-    url: https://twitter.com/tatsuyaoiw
-  # - name: instagram
-  #   url: https://www.instagram.com/tatsuyaoiw/
-  - name: linkedin
-    url: https://www.linkedin.com/in/tatsuyaoiw/
-  - name: github
-    url: https://github.com/tatsuyaoiw
-  # - name: codepen
-  #   url: https://codepen.io/tatsuyaoiw/
+# Google analytics
+google_analytics:    UA-11963754-5
 
-# Contact settings
-# contact_img: /assets/images/placeholder-28.jpg
-# formcarry: https://formcarry.com/s/HkIo0nMb7
+# Twitter account
+twitter:             tatsuyaoiw
 
-# Disqus settings
-# disqus: test-apkdzgmqhj
+#
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 
-# MailChimp settings
-# mailchimp_action: https://samesies.us17.list-manage.com/subscribe/post-json?u=66ddf555dab480e6a8606430b&amp;id=89b3ee034f
-# mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
+# Setup
+title:               Tatsuya Oiwa
+url:                 http://tatsuyaoiw.com
+paginate:            1
 
-# Author settings
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:             :compressed
+
+# About/contact
 author:
-  - name: Tatsuya Oiwa
-    bio: Tatsuya Oiwa is a software engineer with 10+ years hands-on experience in backend services design and development for large-scale consumer platforms. He is currently a Senior Backend Engineer at Quartz and lives in Brooklyn, New York.
-    url: https://tatsuyaoiw.com
-
-# Pagination settings
-pagination:
-  enabled: true
-  debug: false
-  per_page: 12
-  permalink: '/page/:num/'
-  title: ':title'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-autopages:
-  enabled: true
-  categories:
-    enabled: false
-  collections:
-    enabled: false
-  tags:
-    layouts: 
-      - 'tag.html'
-    title: 'Tatsuya Oiwa'
-    permalink: '/tag/:tag'
-    slugify:
-      mode: raw
-      cased: true
-
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-compress_html:
-  clippings: all
-  comments: all
-  startings: [html, head, body]
-exclude:
-  - node_modules
-  - .DS_Store
-  - barber.jpg
-  - Gemfile
-  - Gemfile.lock
-  - gulpfile.js
-  - package.json
-  - README.md
-  - vendor
+  name:              Tatsuya Oiwa
+  url:               https://twitter.com/tatsuyaoiw
+  email:             tatsuyaoiw@gmail.com

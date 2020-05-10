@@ -3,7 +3,6 @@ layout: post
 title: JavaScriptの巻き上げ（ホイスティング）について
 summary: JavaScriptの巻き上げ（ホイスティング - Hoisting）についてのメモ
 date: 2015-01-19 18:19
-author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

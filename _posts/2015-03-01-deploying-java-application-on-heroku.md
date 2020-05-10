@@ -3,7 +3,6 @@ layout: post
 title: JavaアプリケーションをHerokuにデプロイする
 summary: どこでもいいからとにかくインターネットで見れるようにしたい
 date: 2015-03-01 23:54
-author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: Node.jsでモジュールを作ってみる
 date: 2013-05-08 18:19:00
-author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

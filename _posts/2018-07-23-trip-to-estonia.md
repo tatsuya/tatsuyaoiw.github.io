@@ -2,10 +2,10 @@
 layout: post
 title: エストニア感想
 date: 2018-07-23 08:35
-image: /assets/images/2018-07-23-trip-to-estonia_tallinn-old-town.jpg
-author: Tatsuya Oiwa
 tags: [Japanese]
 ---
+
+![Tallinn]({{ site.url }}/assets/2018-07-23-trip-to-estonia_tallinn.jpg)
 
 家族ぐるみで仲良くしてもらっている友人が最近エストニアの首都タリンに移住したので、その友人宅に遊びに行くついでに他のヨーロッパの国もいくつか周ってみることにした。いくつかと言っても実際に行ったのはエストニア、フィンランド、スペインの3カ国で、フィンランドは経由のみ、スペインは地中海のリゾート地として有名なマヨルカ島と、マヨルカ島から近いという理由でバルセロナに滞在した。7/19から7/31までの計13日間。妻と3歳の娘と自分の3人での旅行。
 
@@ -30,7 +30,7 @@ tags: [Japanese]
 
 ヘルシンキ到着後はフェリーでタリンまで移動した。約2時間の船旅。フェリーでの移動は特に子連れにとっては最高で、飛行機みたいに座席に縛られることもないし、船内にはレストランやバーやキッズルームも完備されてるので全く飽きない。内装もオシャレ。Wi-Fi完備。バルト海移動はフェリーの一択かもしれない。
 
-![Ferry Kids Room]({{ site.url }}/assets/images/2018-07-23-trip-to-estonia_ferry-kids-room.jpg)
+![Ferry Kids Room]({{ site.url }}/assets/2018-07-23-trip-to-estonia_ferry-kids-room.jpg)
 
 *フェリー内のキッズスペースは子供にとって夢のような世界*
 
@@ -56,7 +56,7 @@ tags: [Japanese]
 
 あともう一つ忘れてたのが、エストニアの夏は白夜なので夜中でも完全には暗くならない。だいたい朝4時くらいから夜11時くらいまでずっと日が照っていて、夜中にようやく暗くなる。なので晩ごはんを食べたあとビーチへ出かけたりできるけど、逆に言うといつ寝たら良いかわからなくなって感覚が狂う。冬は夕方4時くらいから暗くなるとのこと。
 
-![Night]({{ site.url }}/assets/images/2018-07-23-trip-to-estonia_night.jpg)
+![Night]({{ site.url }}/assets/2018-07-23-trip-to-estonia_night.jpg)
 
 *夜10時でもまだまだ明るい*
 
@@ -64,17 +64,17 @@ tags: [Japanese]
 
 エストニアの首都であるタリンは、旧市街と呼ばれる古くからある建物が並ぶエリアが観光地として有名で、その中におしゃれなレストランやカフェなんかがたくさんある。建物は外見はもちろん内装にもこだわっているところが多くて、普通にご飯食べるだけでもディズニーランドにいるような気分を味わえる。
 
-![Tallinn]({{ site.url }}/assets/images/2018-07-23-trip-to-estonia_tallinn.jpg)
+![Tallinn Old Town]({{ site.url }}/assets/2018-07-23-trip-to-estonia_tallinn-old-town.jpg)
 
 *可愛らしい街並み*
 
-![Beer House]({{ site.url }}/assets/images/2018-07-23-trip-to-estonia_beer-house.jpg)
+![Beer House]({{ site.url }}/assets/2018-07-23-trip-to-estonia_beer-house.jpg)
 
 *Beef Houseというお店では店員も客もみんな音楽に合わせて踊る*
 
 食事はどれも美味しかった。だいたいどの店に行っても自家製パンみたいなのを最初に出してくれてそのパンは食べ放題。物価はだいたい日本と同じくらいか少し安いくらいだけど、たぶん旧市街内は観光地価格なので外はもっと安いかもしれない。
 
-![Bread]({{ site.url }}/assets/images/2018-07-23-trip-to-estonia_bread.jpg)
+![Bread]({{ site.url }}/assets/2018-07-23-trip-to-estonia_bread.jpg)
 
 *ちょっといい感じのレストランで最初に出してくれたパン*
 

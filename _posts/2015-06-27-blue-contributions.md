@@ -2,7 +2,6 @@
 layout: post
 title: GithubのContributions Graphを緑から青に変えるChrome拡張作った
 date: 2015-06-27 21:32
-author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 

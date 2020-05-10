@@ -3,7 +3,6 @@ layout: post
 title: バルセロナ感想
 date: 2018-07-30 11:16
 published: false
-author: Tatsuya Oiwa
 tags: [Japanese]
 ---
 
